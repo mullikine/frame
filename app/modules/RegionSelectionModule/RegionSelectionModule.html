@@ -1,0 +1,50 @@
+                <div id="col-left" class="bg-nz">
+                    <div id="h03"></div>
+                    <div id="region-select">
+                        <h2>Regions</h2>
+                        <ul id="regions">
+
+                            <!--<loop name="RegionsLoop">-->
+                            <li><a style="border-right-color: #{RegionsLoop.color}; color: #{RegionsLoop.color}" href="{RegionsLoop.href}">{RegionsLoop.name}</a></li>
+                            <!--</loop name="RegionsLoop">-->
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+                <div id="col-right">
+                    {Crumbs}
+
+                    <!---->
+                    <div id="homepage">
+                        <div class="fcol50p">
+                            <div class="content">
+                                <h2>About our service</h2>
+                                <p><strong>NZ Channels</strong> provide interesting, relevant information about specific communities.</p>
+                                <p>We source, store and present information about what is happening in the corner of every community.</p>
+                                <p>We gather and analyse information so that you can see what is going on in any place at any time.</p>
+                                <h2>Have a story?</h2>
+                                <p>You can suggest stories by visiting the page of your location or by emailing us at <a href="#">news@nzchannels.co.nz</a></p>
+                            </div>
+                        </div>
+                        <div class="fcol50p">
+                            <div class="content">
+                                <h2>Get started!</h2>
+                                <p>You can find local news by selecting a location or entering a keyword:</p>
+
+                                <form id="homeform" method="post" action="#" enctype="multipart/form-data">
+                                    <div>
+                                    <label for="query_location">Location: </label>
+                                    <input type="text" name="query_location" id="query_location" value="">
+                                    <br style="clear:both">
+                                    <label for="query_keyword">Keyword: </label>
+                                    <input type="text" name="query_keyword" id="query_keyword" value="">
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>

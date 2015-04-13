@@ -1,0 +1,29 @@
+                <div id="col-left">
+                    <div id="h03"></div>
+                    <div id="location-select">
+                        <h2>{Region.name}</h2>
+
+                        <ul id="locations">
+                        <!--<loop name="LocationsLoop">-->
+                        <li style=""><a href="{LocationsLoop.href}" title="{LocationsLoop.name}"><span style="background-color: #{LocationsLoop.color}"></span>{LocationsLoop.short_name}</a></li>
+                        <!--</loop name="LocationsLoop">-->
+                        </ul>
+                        
+                    </div>
+
+
+
+                </div>
+                <div id="col-right">
+
+                    {Crumbs}
+
+                    <!---->
+                    <div id="homepage">
+                        <div class="content">
+                            <h2>{Region.name}</h2>
+                            {Region.description}
+                            <p>Select a location from this region from the list on the left.</p>
+                        </div>
+                    </div>
+                </div>

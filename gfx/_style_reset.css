@@ -1,0 +1,37 @@
+/* Font vertical grid */
+
+body {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+p, li, th, td, h3, legend {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px; /* 12px @ 100% for h2 */
+}
+
+/* Style reset */
+
+html, body, div, p, h1, h2, h3, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul, li {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+/* Font grid bottom margins */
+
+p, ul, h1, h2 {
+    margin-bottom: 18px;
+}

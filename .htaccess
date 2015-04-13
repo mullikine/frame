@@ -1,0 +1,9 @@
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+
+RewriteBase	/
+
+RewriteRule	^(\w+)/(\w+)/(\w+)/(\w+)/*$ nzchannels/shane/index.php?path=$1|$2|$3|$4 [nc]
+RewriteRule	^(\w+)/(\w+)/(\w+)/*$ nzchannels/shane/index.php?path=$1|$2|$3 [nc]
+RewriteRule	^(\w+)/(\w+)/*$ nzchannels/shane/index.php?path=$1|$2 [nc]
+RewriteRule	^(\w+)/*$ nzchannels/shane/index.php?path=$1 [nc]
